@@ -1,0 +1,22 @@
+<% include partials/header %>
+
+<div class="ui  segment grid">
+<% blogs.forEach(function(blog){%>
+	
+	<div class="ui segment five wide column">
+
+		<h3 class="title"><%= blog.title %></h3>
+
+		<img src="<%= blog.photo %>" class="ui  medium image">
+
+		<p>Criado em: <%= blog.created.toDateString() %></p>
+		<p><%= blog.body.substring(0, 100) %></p>
+		<a href="/blogs/<%= blog._id %>" class="ui primary button">Read more</a>
+	</div>
+
+<% }); %>
+</div>
+
+
+
+<% include partials/footer %>

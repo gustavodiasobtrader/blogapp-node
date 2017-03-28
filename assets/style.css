@@ -1,0 +1,25 @@
+i.icon{
+	font-size: 2em;
+}
+
+.container.main{
+	margin-top: 7.0em;
+}
+
+.form{
+	width: 150px;
+}
+
+.container.segment{
+	width: 450px;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.container.segment img{
+	position: relative;
+	display:block;
+	margin: 0 auto;
+}
